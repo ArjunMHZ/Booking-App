@@ -1,0 +1,16 @@
+import React from 'react'
+import "./MailList.css"
+
+export const MailList = () => {
+  return (
+    <div className='mail'>
+        <h1 className="mailTitle">Save time, save money!</h1>
+        <span className='mailDesc'>Sign up and we'll send the best deals to you</span>
+        <div className="mailContainer">
+            <input type="email" placeholder='Your email address'/>
+            <button>Subscribe</button>
+        </div>
+
+    </div>
+  )
+}

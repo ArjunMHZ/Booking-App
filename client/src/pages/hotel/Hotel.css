@@ -1,0 +1,149 @@
+.hotelContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hotelWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.bookNow{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: #007ec2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hotelTitle{
+    font-size: 24px;
+    color: #007ec2;
+}
+
+.hotelAddres{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hotelDistance{
+    color: #007ec2;
+    font-weight: bold;
+}
+
+.hotelPriceHighlight{
+    color: #008009;
+    font-weight: bold;
+}
+
+.hotelImages{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.hotelImgWrapper{
+    width: 33%;
+}
+
+.hotelImg{
+    width: 100%;
+    object-fit: cover;
+}
+
+.hotelDetails{
+    display: flex;
+    margin-top: 20px;
+}
+
+.hotelDetailsTexts{
+    flex: 5;
+    margin-right: 10px;
+}
+
+.hotelDetailsPrice{
+    flex: 2;
+    background-color: #ebf3ff;
+    padding: 10px;
+}
+
+.hotelDetailsPrice>h1{
+    font-size: 18px;
+    color: #555;
+}
+.hotelDetailsPrice>h2{
+    font-weight: 300;
+}
+
+.hotelDetailsPrice>span{
+    font-size: 12px;
+}
+
+.hotelDetailsPrice>button{
+    width: 100%;
+    background-color: #007ec2;
+    font-weight: bold;
+    color: white;
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 20px;
+}
+
+.slider{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* width: 100vw; */
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.411);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+.sliderWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sliderImg{
+    width: 80%;
+    height: 80vh;
+}
+
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: whitesmoke;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.arrow{
+    margin: 20px;
+    font-size: 30px;
+    color: whitesmoke;
+}

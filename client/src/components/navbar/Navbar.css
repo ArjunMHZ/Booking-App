@@ -3,6 +3,7 @@
     background-color: #003580;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .navContainer{
@@ -11,11 +12,11 @@
     color: white;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .navItems{
-    /* margin-right: 1rem; */
+   
     display: flex;
     /* float: left; */
 }
@@ -36,10 +37,53 @@
     color: #003580;
 }
 
-.navLogButton{
-    margin-left: 20px;
-    border: none;
-    padding: 5px 10px;
+
+.logout{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.13);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lContainer{
+    background-color: white;
+    padding: 20px;
+    z-index: 2;
+    position: fixed;
+    box-shadow: 10px 10px 5px 0px rgba(176,159,159,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(176,159,159,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(176,159,159,0.75);
+    
+}
+
+.lTitle{
+    /* font-weight: 500; */
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1rem;
+}
+
+.lButtonContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logoutButton{
+    background-color: white;
+    color: black;
     cursor: pointer;
-    color: #003580;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.logoutButton:hover{
+    color: white;
+    background-color: black;
 }
